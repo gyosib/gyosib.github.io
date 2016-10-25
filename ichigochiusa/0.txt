@@ -11,4 +11,4 @@ NEW
 
 save 100
 `Download
-?"MJ GETS gyosib.github.io/1.txt
+?"MJ GETS gyosib.github.io/ichigochiusa/1.txt
