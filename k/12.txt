@@ -11,4 +11,4 @@ NEW
 save 112
 'D
 
-?"MJ GETS gyosib.github.io/g/13.txt
+?"MJ GETS gyosib.github.io/k/13.txt
