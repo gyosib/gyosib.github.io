@@ -11,4 +11,4 @@ NEW
 save 160
 'D
 
-?"MJ GETS gyosib.github.io/g/61.txt
+?"MJ GETS gyosib.github.io/k/61.txt
