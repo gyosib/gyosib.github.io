@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/simple.css">
+		<link rel="stylesheet" href="css/theme/sky.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,46 +24,25 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background="#111fff">
-					<section id="fragment" data-background-transition="zoom">
-						<p class="fragment">Slide 1</p>
-						<p class="fragment">Slide 1.2</p>
-					</section>
-					<section data-transition-speed="fast">
-						Slide 3
-					</section>
-				</section>
-				<section>
-					<p class="fragment current-visible">Slide 2</p>
-				</section>
-				<section>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
+					<script type="text/template">
+<section data-transition="slide" data-background="#f7f2d3" data-background-transition="zoom">
+## THIS IS A TEST
+### this is a test
+this is a test
+
+--
+
+<h2>it is a test</h2>
+
+
+Note:
+pointer
+
+---
+
+this is a test
+</section>
+					</script>
 			</div>
 		</div>
 
@@ -82,11 +61,6 @@
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
-
-			Reveal.configure(
-				{slideNumber: true},
-				{backgroundTransition: 'zoom'}
-			);
 		</script>
 	</body>
 </html>
